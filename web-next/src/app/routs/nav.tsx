@@ -20,7 +20,12 @@ export function Navbarr() {
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
-    <div className={cn("fixed top-10 inset-x-0 mx-20 my-4 z-50", className)}>
+    <div
+      className={cn(
+        "fixed top-10 inset-x-0 mx-20 my-4 z-50 bg-black",
+        className
+      )}
+    >
       <div className="flex items-center justify-between">
         <div className="flex items-center">
           <a href="/">
