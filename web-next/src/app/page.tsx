@@ -7,7 +7,7 @@ import { EvervaultCard } from "@/app/routs/EvervaultCard";
 export default function Home() {
   return (
     <main>
-      <Navbarr />
+      {/* <Navbarr /> */}
       <Sparkles />
       <GoogleGeminiEffectt />
       <EvervaultCard />
